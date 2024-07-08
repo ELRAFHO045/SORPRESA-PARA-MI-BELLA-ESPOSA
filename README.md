@@ -18,5 +18,46 @@ Con todo mi amor y gratitud,
 
 RAFAEL.
 
-git clone https://github.com/ELRAFHO045/SORPRESA-PARA-MI-BELLA-ESPOSA.git
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuerdos de Valentina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .content {
+            text-align: center;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Recuerdos de Valentina</h1>
+        <img src="file:///D:/Archivos%20Valentina/Valentina%20Recuerdos/51985450793_status_0e149535ea524203aea0caa6700ea6c2.jpg" alt="Recuerdo de Valentina">
+    </div>
+</body>
+</html>
 
