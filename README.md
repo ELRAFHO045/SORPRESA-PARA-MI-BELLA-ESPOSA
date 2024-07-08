@@ -3,27 +3,23 @@
 
 import io
 import os.path
-from googleapiclient.discovery import build
-from google.oauth2 import service_account
+import requests
+from PIL import Image
+from io import BytesIO
 
-# Define el ID del archivo en Google Drive
-file_id = '1-nT6fNNxLh1ITLNEvvcPQ64XWp5DV5uY'
+# URL del archivo en Google Drive
+file_url = 'https://drive.google.com/uc?id=1-nT6fNNxLh1ITLNEvvcPQ64XWp5DV5uY'
 
-# Carga la credencial del servicio
-creds = service_account.Credentials.from_service_account_file(
-    'path/a/tu/credencial.json',  # Reemplaza con la ruta de tu archivo de credenciales
-    scopes=['https://www.googleapis.com/auth/drive.readonly'])
+# Descarga la imagen desde la URL
+response = requests.get(file_url)
+image_bytes = BytesIO(response.content)
 
-# Crea un servicio de Google Drive
-service = build('drive', 'v3', credentials=creds)
+# Abre la imagen usando PIL (Python Imaging Library)
+image = Image.open(image_bytes)
 
-# Descarga el archivo
-request = service.files().get_media(fileId=file_id)
-fh = io.BytesIO()
-downloader = io.BytesIO()
-downloader.seek(0)
+# Muestra la imagen
+image.show()
 
-# Muestra el archivo
 
 <p>En el suave susurro de la mañana, donde el sol se levanta con la promesa de un nuevo día, quiero que sepan cuánto significan para mí. Valentina, desde el momento en que nuestros caminos se entrelazaron, mi vida ha sido una sinfonía de amor y alegría. Tu bondad y tu risa iluminan cada rincón de mi corazón. Santiago, pequeño tesoro lleno de curiosidad y sonrisas, cada momento contigo es un regalo que atesoro más que cualquier tesoro.</p>
 
