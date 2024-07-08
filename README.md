@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -16,6 +15,7 @@
 
 <video controls width="640" height="360">
 <source src="https://www.youtube.com/watch?v=VKtF8Ge9fl0" type="video/mp4">
+Tu navegador permite la reproducción de video.
 </video>
 <p>En nuestros días juntos, aprendemos y crecemos juntos, y nos amamos más profundamente con cada latido de nuestros corazones. Valentina, eres mi compañera de aventuras, mi cómplice en cada sueño. Santiago, eres la luz que ilumina nuestro hogar con tu inocencia y tu amor incondicional.</p>
 <p>Que cada amanecer nos encuentre abrazados, celebrando la dicha de ser una familia. En cada noche estrellada, recordemos que el amor que compartimos es nuestro faro en las tempestades y nuestra calma en las aguas tranquilas.</p>
