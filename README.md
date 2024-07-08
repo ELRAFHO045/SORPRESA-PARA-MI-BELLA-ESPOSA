@@ -4,59 +4,16 @@ Amada esposa mia,
 
 En el suave susurro de la mañana, donde el sol se levanta con la promesa de un nuevo día, quiero que sepan cuánto significan para mí. Valentina, desde el momento en que nuestros caminos se entrelazaron, mi vida ha sido una sinfonía de amor y alegría. Tu bondad y tu risa iluminan cada rincón de mi corazón. Santiago, pequeño tesoro lleno de curiosidad y sonrisas, cada momento contigo es un regalo que atesoro más que cualquier tesoro.
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enlace de Google Drive</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-        .content {
-            text-align: center;
-            max-width: 800px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <div class="content">
-        <h1>Enlace de Google Drive</h1>
-        <p>
-            Haz clic en el siguiente enlace para ver el archivo:
-        </p>
-        <p>
-            <a href="https://drive.google.com/file/d/1qtgO0S6bWPOPhGztkCfXj4JQpomgISc3/view?usp=drive_link" target="_blank">Ver archivo en Google Drive</a>
-        </p>
-    </div>
-</body>
-</html>
+img src="https://drive.google.com/file/d/1qtgO0S6bWPOPhGztkCfXj4JQpomgISc3/view?usp=drive_link" alt="Caritas Sonrientes">
 
 En cada paso que damos juntos, construimos recuerdos que brillan como estrellas en el cielo nocturno. Valentina, tu fuerza y ​​tu ternura son mi guía y mi refugio. Santiago, con cada risa contagiosa y cada gesto juguetón, llenas nuestras vidas de una magia indescriptible.
 
 En este viaje que llamamos vida, prometo estar siempre a tu lado, Valentina, apoyándote y amándote en cada momento. Y Santiago, prometo ser tu protector, tu amigo y tu confidente, mientras creces y descubres el mundo que te rodea.
+
+<video width="640" height="360" controls>
+  <source src="https://drive.google.com/uc?export=view&id=13KX6-UT6w7Haa8ifzViR8vvlFrqJlESM" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 En nuestros días juntos, aprendemos juntos, crecemos juntos y nos amamos más profundamente con cada latido de nuestros corazones. Valentina, eres mi compañera de aventuras, mi cómplice en cada sueño. Santiago, eres la luz que ilumina nuestro hogar con tu inocencia y tu amor incondicional.
 
@@ -68,5 +25,9 @@ Con todo mi amor y gratitud,
 
 RAFAEL.
 
+<video width="640" height="360" controls>
+  <source src="https://drive.google.com/uc?export=view&id=1HHyVd51rtUhl-wp97nJHtx0SA-rR2flT" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
