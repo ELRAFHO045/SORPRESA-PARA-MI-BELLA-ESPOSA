@@ -9,12 +9,10 @@ img src="https://drive.google.com/file/d/1qtgO0S6bWPOPhGztkCfXj4JQpomgISc3/view?
 En cada paso que damos juntos, construimos recuerdos que brillan como estrellas en el cielo nocturno. Valentina, tu fuerza y ​​tu ternura son mi guía y mi refugio. Santiago, con cada risa contagiosa y cada gesto juguetón, llenas nuestras vidas de una magia indescriptible.
 
 En este viaje que llamamos vida, prometo estar siempre a tu lado, Valentina, apoyándote y amándote en cada momento. Y Santiago, prometo ser tu protector, tu amigo y tu confidente, mientras creces y descubres el mundo que te rodea.
-
 <video width="640" height="360" controls>
   <source src="https://drive.google.com/uc?export=view&id=13KX6-UT6w7Haa8ifzViR8vvlFrqJlESM" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 En nuestros días juntos, aprendemos juntos, crecemos juntos y nos amamos más profundamente con cada latido de nuestros corazones. Valentina, eres mi compañera de aventuras, mi cómplice en cada sueño. Santiago, eres la luz que ilumina nuestro hogar con tu inocencia y tu amor incondicional.
 
 Que cada amanecer nos encuentre abrazados, celebrando la dicha de ser una familia. En cada noche estrellada, recordemos que el amor que compartimos es nuestro faro en las tempestades y nuestra calma en las aguas tranquilas.
