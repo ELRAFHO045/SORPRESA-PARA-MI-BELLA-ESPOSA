@@ -1,7 +1,6 @@
 <div id="mensaje">
 <p>AMADA ESPOSA MIA,</p>
 
-!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
