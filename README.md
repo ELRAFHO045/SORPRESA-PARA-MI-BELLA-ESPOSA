@@ -1,6 +1,18 @@
 <div id="mensaje">
 <p>AMADA ESPOSA MIA,</p>
 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar imagen desde Google Drive</title>
+</head>
+<body>
+    <!-- Inserta la imagen desde Google Drive con el ID de la imagen proporcionado -->
+    <img src="https://drive.google.com/uc?id=1-nT6fNNxLh1ITLNEvvcPQ64XWp5DV5uY" alt="Imagen desde Google Drive" style="max-width: 100%; height: auto;">
+</body>
+</html>
+
 <p>En el suave susurro de la mañana, donde el sol se levanta con la promesa de un nuevo día, quiero que sepan cuánto significan para mí. Valentina, desde el momento en que nuestros caminos se entrelazaron, mi vida ha sido una sinfonía de amor y alegría. Tu bondad y tu risa iluminan cada rincón de mi corazón. Santiago, pequeño tesoro lleno de curiosidad y sonrisas, cada momento contigo es un regalo que atesoro más que cualquier tesoro.</p>
 
 <p>En cada paso que damos juntos, construimos recuerdos que brillan como estrellas en el cielo nocturno. Valentina, tu fuerza y ​​tu ternura son mi guía y mi refugio. Santiago, con cada risa contagiosa y cada gesto juguetón, llenas nuestras vidas de una magia indescriptible.</p>
@@ -9,7 +21,6 @@
 
 <p>En nuestros días juntos, aprendemos juntos, crecemos juntos y nos amamos más profundamente con cada latido de nuestros corazones. Valentina, eres mi compañera de aventuras, mi cómplice en cada sueño. Santiago, eres la luz que ilumina nuestro hogar con tu inocencia y tu amor incondicional.</p>
 
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -28,7 +39,6 @@
 
 <p>Con todo mi amor y gratitud,</p>
 <p>Rafael</p>
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
