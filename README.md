@@ -1,19 +1,43 @@
 <div id="mensaje">
 <p>AMADA ESPOSA MIA,</p>
 
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mostrar imagen desde Google Drive</title>
+    <title>Mostrar imagen desde Google Drive con JavaScript</title>
 </head>
 <body>
-    <!-- Inserta la imagen desde Google Drive con el ID de la imagen proporcionado -->
-    <img src="https://drive.google.com/uc?id=1-nT6fNNxLh1ITLNEvvcPQ64XWp5DV5uY" alt="Imagen desde Google Drive" style="max-width: 100%; height: auto;">
+    <!-- Contenedor donde se mostrará la imagen -->
+    <div id="imagen-container"></div>
+
+<script>
+        // Función para cargar la imagen desde Google Drive
+        function cargarImagenDesdeGoogleDrive() {
+            // URL de la imagen en Google Drive
+            var imageUrl = 'https://drive.google.com/uc?id=1-nT6fNNxLh1ITLNEvvcPQ64XWp5DV5uY';
+
+            // Crear un elemento <img> en JavaScript
+            var imgElement = document.createElement('img');
+            imgElement.src = imageUrl;
+            imgElement.alt = 'Imagen desde Google Drive';
+            imgElement.style.maxWidth = '100%';
+            imgElement.style.height = 'auto';
+
+            // Obtener el contenedor donde se mostrará la imagen
+            var container = document.getElementById('imagen-container');
+
+            // Agregar la imagen al contenedor
+            container.appendChild(imgElement);
+        }
+
+        // Llamar a la función para cargar la imagen cuando se cargue la página
+        window.onload = function() {
+            cargarImagenDesdeGoogleDrive();
+        };
+    </script>
 </body>
 </html>
-
 
 <p>En el suave susurro de la mañana, donde el sol se levanta con la promesa de un nuevo día, quiero que sepan cuánto significan para mí. Valentina, desde el momento en que nuestros caminos se entrelazaron, mi vida ha sido una sinfonía de amor y alegría. Tu bondad y tu risa iluminan cada rincón de mi corazón. Santiago, pequeño tesoro lleno de curiosidad y sonrisas, cada momento contigo es un regalo que atesoro más que cualquier tesoro.</p>
 
