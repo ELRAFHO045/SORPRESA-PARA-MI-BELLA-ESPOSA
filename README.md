@@ -1,43 +1,29 @@
 <div id="mensaje">
 <p>AMADA ESPOSA MIA,</p>
 
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mostrar imagen desde Google Drive con JavaScript</title>
-</head>
-<body>
-    <!-- Contenedor donde se mostrará la imagen -->
-    <div id="imagen-container"></div>
+import io
+import os.path
+from googleapiclient.discovery import build
+from google.oauth2 import service_account
 
-<script>
-        // Función para cargar la imagen desde Google Drive
-        function cargarImagenDesdeGoogleDrive() {
-            // URL de la imagen en Google Drive
-            var imageUrl = 'https://drive.google.com/uc?id=1-nT6fNNxLh1ITLNEvvcPQ64XWp5DV5uY';
+# Define el ID del archivo en Google Drive
+file_id = '1-nT6fNNxLh1ITLNEvvcPQ64XWp5DV5uY'
 
-            // Crear un elemento <img> en JavaScript
-            var imgElement = document.createElement('img');
-            imgElement.src = imageUrl;
-            imgElement.alt = 'Imagen desde Google Drive';
-            imgElement.style.maxWidth = '100%';
-            imgElement.style.height = 'auto';
+# Carga la credencial del servicio
+creds = service_account.Credentials.from_service_account_file(
+    'path/a/tu/credencial.json',  # Reemplaza con la ruta de tu archivo de credenciales
+    scopes=['https://www.googleapis.com/auth/drive.readonly'])
 
-            // Obtener el contenedor donde se mostrará la imagen
-            var container = document.getElementById('imagen-container');
+# Crea un servicio de Google Drive
+service = build('drive', 'v3', credentials=creds)
 
-            // Agregar la imagen al contenedor
-            container.appendChild(imgElement);
-        }
+# Descarga el archivo
+request = service.files().get_media(fileId=file_id)
+fh = io.BytesIO()
+downloader = io.BytesIO()
+downloader.seek(0)
 
-        // Llamar a la función para cargar la imagen cuando se cargue la página
-        window.onload = function() {
-            cargarImagenDesdeGoogleDrive();
-        };
-    </script>
-</body>
-</html>
+# Muestra el archivo
 
 <p>En el suave susurro de la mañana, donde el sol se levanta con la promesa de un nuevo día, quiero que sepan cuánto significan para mí. Valentina, desde el momento en que nuestros caminos se entrelazaron, mi vida ha sido una sinfonía de amor y alegría. Tu bondad y tu risa iluminan cada rincón de mi corazón. Santiago, pequeño tesoro lleno de curiosidad y sonrisas, cada momento contigo es un regalo que atesoro más que cualquier tesoro.</p>
 
