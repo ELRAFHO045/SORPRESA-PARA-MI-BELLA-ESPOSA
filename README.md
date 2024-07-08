@@ -1,26 +1,6 @@
 <div id="mensaje">
 <p>AMADA ESPOSA MIA,</p>
 
-import io
-import os.path
-import requests
-from PIL import Image
-from io import BytesIO
-
-# URL del archivo en Google Drive
-file_url = 'https://drive.google.com/uc?id=1-nT6fNNxLh1ITLNEvvcPQ64XWp5DV5uY'
-
-# Descarga la imagen desde la URL
-response = requests.get(file_url)
-image_bytes = BytesIO(response.content)
-
-# Abre la imagen usando PIL (Python Imaging Library)
-image = Image.open(image_bytes)
-
-# Muestra la imagen
-image.show()
-
-
 <p>En el suave susurro de la mañana, donde el sol se levanta con la promesa de un nuevo día, quiero que sepan cuánto significan para mí. Valentina, desde el momento en que nuestros caminos se entrelazaron, mi vida ha sido una sinfonía de amor y alegría. Tu bondad y tu risa iluminan cada rincón de mi corazón. Santiago, pequeño tesoro lleno de curiosidad y sonrisas, cada momento contigo es un regalo que atesoro más que cualquier tesoro.</p>
 
 <p>En cada paso que damos juntos, construimos recuerdos que brillan como estrellas en el cielo nocturno. Valentina, tu fuerza y ​​tu ternura son mi guía y mi refugio. Santiago, con cada risa contagiosa y cada gesto juguetón, llenas nuestras vidas de una magia indescriptible.</p>
