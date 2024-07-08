@@ -5,11 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reproducir video de Google Drive</title>
+    <title>Reproducir video desde Google Drive</title>
 </head>
 <body>
     <!-- Inserta el reproductor de Google Drive con el ID del video proporcionado -->
-    <iframe src="https://drive.google.com/file/d/1HHyVd51rtUhl-wp97nJHtx0SA-rR2flT/view?usp=drive_link" width="640" height="480"></iframe>
+    <iframe src="https://drive.google.com/file/d/1HHyVd51rtUhl-wp97nJHtx0SA-rR2flT/preview" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
 
